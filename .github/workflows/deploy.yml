@@ -3,7 +3,7 @@ name: Deploy Slidev to GitHub Pages
 on:
   push:
     branches:
-      - main # Cambia in 'master' se il tuo ramo principale si chiama così
+      - master
 
 # Permessi necessari per scrivere su GitHub Pages
 permissions:
