@@ -27,3 +27,15 @@ src: ./pages/5.1.pcto.md
 ---
 src: ./pages/5.2.pcto.md
 ---
+
+---
+src: ./pages/5.3.pcto.md
+---
+
+---
+src: ./pages/6.end.md
+---
+
+---
+src: ./pages/7.thanks.md
+---
