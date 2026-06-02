@@ -1,7 +1,7 @@
 ---
 theme: the-unnamed
 title: Percorso e PCTO - Giulio Tognetto
-favicon: ../assets/logo.png
+favicon: https://euganeo.edu.it/wp-content/uploads/2024/09/logo_iiseuganeo_100.png
 preload: true
 export:
  format: pdf
