@@ -1,6 +1,19 @@
 ---
 theme: the-unnamed
-titleTemplate: 'Maturità - Giulio Tognetto'
+title: Percorso e PCTO - Giulio Tognetto
+favicon: ../assets/logo.png
+preload: true
+export:
+ format: pdf
+ withClicks: true
+contextMenu: false
+author: Giulio Tognetto
+info: Presentazione del mio percorso scolastico, dei miei progetti, della mia esperienza PCTO in azienda e di quello che faro' in futuro
+seoMeta:
+  ogTitle: Percorso e PCTO - Giulio Tognetto
+  ogDescription: Presentazione del mio percorso scolastico, dei miei progetti, della mia esperienza PCTO in azienda e di quello che faro' in futuro
+  ogImage: https://cover.sli.dev
+  ogUrl: https://maturita.giuliotognetto.dev
 src: ./pages/1.cover.md
 ---
 

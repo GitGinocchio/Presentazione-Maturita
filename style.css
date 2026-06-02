@@ -37,3 +37,7 @@
 .slidev-layout.section a {
   border-bottom-color: var(--slidev-theme-section-headingBg) !important;
 }
+
+#app #slidev-goto-dialog {
+  display: none !important;
+}
