@@ -38,6 +38,24 @@
   border-bottom-color: var(--slidev-theme-section-headingBg) !important;
 }
 
+.slidev-layout.two-columns li::marker {
+  color: var(--slidev-theme-default-headingBg);
+}
+
 #app #slidev-goto-dialog {
   display: none !important;
+}
+
+.light {
+  --slidev-theme-background: #fcfcfc;
+  --slidev-theme-color: #1e293b;
+  --slidev-theme-code-background: #f1f5f9;
+  --slidev-theme-code-color: #1e293b;
+  --slidev-theme-default-headingColor: #0f172a;
+  --slidev-theme-center-headingColor: #0f172a;
+  --slidev-theme-section-headingColor: #0f172a;
+  --slidev-theme-header-shadow: rgba(0, 0, 0, 0.08) 1.95px 1.95px 2.6px;
+
+  font-weight: 1000;
+  
 }

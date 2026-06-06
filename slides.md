@@ -4,7 +4,6 @@ title: Percorso e FSL - Giulio Tognetto
 favicon: https://euganeo.edu.it/wp-content/uploads/2024/09/logo_iiseuganeo_100.png
 preload: true
 export:
- format: pdf
  withClicks: true
 contextMenu: false
 author: Giulio Tognetto
@@ -34,15 +33,15 @@ src: ./pages/4.2.projects.md
 ---
 
 ---
-src: ./pages/5.1.pcto.md
+src: ./pages/5.1.fsl.md
 ---
 
 ---
-src: ./pages/5.2.pcto.md
+src: ./pages/5.2.fsl.md
 ---
 
 ---
-src: ./pages/5.3.pcto.md
+src: ./pages/5.3.fsl.md
 ---
 
 ---
