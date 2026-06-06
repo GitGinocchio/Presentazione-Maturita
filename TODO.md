@@ -1,0 +1,1 @@
+- [ ] Aggiungere una pagina "Giornata tipo" in cui mostro cio' che facevamo e come mi interfacciavo con il relatore
