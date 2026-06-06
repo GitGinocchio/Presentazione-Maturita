@@ -14,6 +14,7 @@ import { ref } from 'vue'
 const { $slidev } = useSlideContext()
 
 const isDark = ref(true)
+$slidev.isDark = isDark.value;
 
 const toggleTheme = () => {
   isDark.value = !isDark.value
