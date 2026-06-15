@@ -1,29 +1,27 @@
-.slidev-layout.center strong {
+/* Stile comune per tutti i layout */
+.slidev-layout strong {
   font-weight: 900 !important;
-  color: var(--slidev-theme-center-headingBg) !important;
-  text-shadow: 0 0 12px rgba(94, 173, 242, 0.4); /* Bagliore azzurro (accents-blue) */
   opacity: 1 !important;
+}
+
+.slidev-layout.center strong {
+  color: var(--slidev-theme-center-headingBg) !important;
+  text-shadow: 0 0 12px color-mix(in srgb, var(--slidev-theme-center-headingBg), transparent 60%);
 }
 
 .slidev-layout.default strong {
-  font-weight: 900 !important;
   color: var(--slidev-theme-default-headingBg) !important;
-  text-shadow: 0 0 12px rgba(255, 228, 94, 0.35); /* Bagliore giallo (accents-yellow) */
-  opacity: 1 !important;
+  text-shadow: 0 0 12px color-mix(in srgb, var(--slidev-theme-default-headingBg), transparent 65%);
 }
 
 .slidev-layout.section strong {
-  font-weight: 900 !important;
   color: var(--slidev-theme-section-headingBg) !important;
-  text-shadow: 0 0 12px rgba(21, 194, 203, 0.4); /* Bagliore celeste (accents-lightblue) */
-  opacity: 1 !important;
+  text-shadow: 0 0 12px color-mix(in srgb, var(--slidev-theme-section-headingBg), transparent 60%);
 }
 
 .slidev-layout.cover strong {
-  font-weight: 900 !important;
   color: var(--slidev-theme-cover-headingBg) !important;
-  text-shadow: 0 0 12px rgba(21, 194, 203, 0.4); /* Bagliore celeste (accents-lightblue) */
-  opacity: 1 !important;
+  text-shadow: 0 0 12px color-mix(in srgb, var(--slidev-theme-cover-headingBg), transparent 60%);
 }
 
 .slidev-layout.center a {
@@ -57,5 +55,4 @@
   --slidev-theme-header-shadow: rgba(0, 0, 0, 0.08) 1.95px 1.95px 2.6px;
 
   font-weight: 1000;
-  
 }

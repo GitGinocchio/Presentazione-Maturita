@@ -24,3 +24,9 @@ class: text-center
     <PoweredBySlidev />
   </div>
 </div>
+
+<style>
+.slidev-layout {
+  --slidev-theme-cover-headingBg: #6EE7B7;
+}
+</style>
